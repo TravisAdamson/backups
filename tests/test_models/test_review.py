@@ -61,3 +61,7 @@ class test_review(test_basemodel):
     def test_is_subclass(self):
         """Check that Review is a subclass of Basemodel"""
         self.assertTrue(isinstance(self.review, Review))
+
+
+if __name__ == "__main__":
+    unittest.main()
